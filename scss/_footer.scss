@@ -1,0 +1,54 @@
+.fa-mobile-alt:before{
+  color: black;
+}
+
+.fa-envelope:before{
+  color: black;
+}
+
+.fa-facebook-f:before{
+  color: black;
+}
+
+body{
+  margin: 0;
+}
+
+.footer{
+  margin: 0;
+  width: 100%;
+  background-color:$primary;
+  color: black;
+  font-family: $font-special;
+}
+
+.footer__info{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer__icons{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.icons-border{
+  width: 60px;
+height: 60px;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+  background-color: $secondary;
+  border-radius: 50%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.icons-border:hover{
+  background-color: $hover;
+}
+
+

@@ -1,0 +1,47 @@
+---
+layout: layouts/sablona.njk
+title: Kontakt
+hero: kruzitko
+---
+<main class="form">
+<h2>Napište zprávu</h2>
+  <input type="hidden" name="_redirect" value="https://technickasazba.cz"
+/>
+  <form method="POST" action="https://submit-form.com/kOwpO9oz">
+  <div class="form-field">
+    <label for="jmeno" id="jmeno">Jméno<span class="required">*</span></label>
+    <input type="text" name="jmeno" id="jmeno" required>
+  </div>
+  <div class="form-field">
+    <label for="email" id="email">Email<span class="required">*</span></label>
+    <input type="email" name="email" id="email" required>
+  </div>
+  <div class="form-field">
+    <label for="tel" id="tel">Telefon</label>
+    <input type="tel" name="tel" id="tel">
+  </div>
+  <div class="form-field">
+    <label for="predmet" id="predmet">Předmět</label>
+    <select name="predmet" id="predmet">
+      <option></option>
+      <option>Dotaz</option>
+      <option>Chci korektury</option>
+      <option>Chci grafy</option>
+      <option>Chci grafiku</option>
+      <option>Chci něco jiného</option>
+      <option>Pozdrav</option>
+      </select>
+  </div>
+  <div class="form-field">
+    <label for="zprava" id="zprava">Zpráva</label>
+    <textarea name="zpráva" id="zprava" rows="7"></textarea>
+  </div>
+  <div class="form__checkbox">
+    <input type="checkbox" name="souhlas" id="souhlas" required>
+    <label for="checkbox" id="souhlas" name="souhlas">Souhlasím s kontaktem na základě odeslané zprávy.<span class="required">*</span></label>
+  </div>
+  <div class="send">
+    <button class="form-button" type="submit" name="odeslat" id="odeslat">Odeslat</button>
+  </div>
+  </form>
+</main>

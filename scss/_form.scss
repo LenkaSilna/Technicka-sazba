@@ -1,0 +1,50 @@
+.form-field{
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-field label{
+  display: block;
+}
+
+.required{
+  color: red;
+}
+
+form{
+  width: 100%;
+  max-width: 300px;
+  margin: 30px auto;
+}
+
+.form-field input,
+.form-field textarea,
+.form-field select{
+  width: 100%;
+  border: 3px solid $primary;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.form-button{
+  padding: 20px;
+  border: 0;
+  background-color: $secondary;
+}
+
+.form-button:hover{
+  background-color: $primary;
+}
+
+.send{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+@media screen and (min-width: 800px){
+  form{
+    width: 100%;
+    max-width: 500px;
+    margin: 30px auto;
+  }
+}

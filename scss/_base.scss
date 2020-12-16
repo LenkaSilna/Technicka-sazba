@@ -1,0 +1,23 @@
+.wrapper{
+  width: 100%;
+  background-color: $primary;
+}
+
+a:-webkit-any-link {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.main,
+.form{
+  margin-right: auto;
+  margin-left: auto;
+
+  @media screen and (min-width: 800px){
+    .main{
+      max-width: 1200px;
+    }
+  }
+  
+}
