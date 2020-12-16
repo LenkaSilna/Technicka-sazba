@@ -193,9 +193,9 @@ body {
   background-color: #82CACD;
 }
 
-.service__graphic-button,
-.service__charts-button,
-.service__correction-button {
+.service__graphic-button:hover,
+.service__charts-button:hover,
+.service__correction-button:hover {
   background-color: #205D76;
 }
 
