@@ -15,7 +15,8 @@ a:-webkit-any-link {
   margin-left: auto;
 
   @media screen and (min-width: 800px){
-    .main{
+    .main,
+    .form{
       max-width: 1200px;
     }
   }

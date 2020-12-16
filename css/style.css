@@ -17,7 +17,9 @@ a:-webkit-any-link {
 
 @media screen and (min-width: 800px) {
   .main .main,
-  .form .main {
+  .main .form,
+  .form .main,
+  .form .form {
     max-width: 1200px;
   }
 }
