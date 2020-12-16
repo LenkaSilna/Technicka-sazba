@@ -1,0 +1,19 @@
+{% include "partials/page_top.njk" %}
+
+{% include "partials/hero.njk" %}
+
+
+<main class="main">
+
+  {{content | safe}}
+
+
+</main>
+
+<div class="banner" style="background-image: url(/img/banner.jpg)">
+    <h2 class="claim">Aby se to <br>
+      nesypalo</h2>
+
+</div>
+
+{% include "partials/page_bottom.njk" %}
