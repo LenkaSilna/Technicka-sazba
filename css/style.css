@@ -220,11 +220,22 @@ body {
   padding: 30px;
 }
 
+@media screen and (max-width: 400px) {
+  .hero__text {
+    padding: 15px;
+  }
+}
+
 @media screen and (min-width: 800px) {
   .hero__text {
     top: 115px;
     left: 20%;
   }
+}
+
+.service {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .form-field {
