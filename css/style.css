@@ -185,21 +185,18 @@ body {
   background-color: #ffaaa8;
 }
 
-.service__triangle-right {
-  width: 0;
-  height: 0;
-  border-top: 40px solid transparent;
-  border-left: 75px solid blue;
-  border-bottom: 40px solid transparent;
-  position: relative;
+.service__graphic-button,
+.service__charts-button,
+.service__correction-button {
+  padding: 20px;
+  border: 0;
+  background-color: #82CACD;
 }
 
-.triangle-text {
-  color: white;
-  position: absolute;
-  top: -37px;
-  left: -70px;
-  right: 0;
+.service__graphic-button,
+.service__charts-button,
+.service__correction-button {
+  background-color: #205D76;
 }
 
 .hero {
