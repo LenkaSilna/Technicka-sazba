@@ -4,6 +4,7 @@
 }
 
 .index_icon{
+  
   color: $primary;
   margin-right: 20px;
 }
@@ -14,6 +15,7 @@
   &__graphic-text,
   &__other-text{
     display: flex;
+    align-items: center;
   }
 }
 
