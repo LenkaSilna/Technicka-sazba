@@ -2,3 +2,22 @@
   padding-left: 20px;
   padding-right: 20px;
 }
+
+@media screen and (min-width: 800px){
+  .service{
+    display: flex;
+    flex: 1 1 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .service__correction,
+  .service__charts,
+  .service__graphic,
+  .service__other{
+    width: 400px;
+  }
+
+}
