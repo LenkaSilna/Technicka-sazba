@@ -4,10 +4,15 @@
   padding: 20px;
   border: 0;
   background-color: $secondary;
+  font-family: $font-base;
+  font-size: 20px;
+  font-weight: bold;
+  color: $primary;
 }
 
 .service__graphic-button:hover,
 .service__charts-button:hover, 
 .service__correction-button:hover{
   background-color: $primary;
+  color: $hover;
 }
