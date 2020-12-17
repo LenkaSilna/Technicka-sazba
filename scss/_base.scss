@@ -10,13 +10,15 @@ a:-webkit-any-link {
 }
 
 .main,
-.form{
+.form,
+.correction{
   margin-right: auto;
   margin-left: auto;
 
   @media screen and (min-width: 800px){
     .main,
-    .form{
+    .form,
+    .correction{
       max-width: 1200px;
     }
   }
