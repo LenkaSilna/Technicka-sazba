@@ -9,6 +9,17 @@ a:-webkit-any-link {
   text-decoration: none;
 }
 
+p, ul, li{
+  font-family: $font-base;
+  line-height: 1.6;
+  font-size: 16px
+
+}
+
+.other-kontakt{
+  font-family: $font-base;
+}
+
 .main,
 .form{
   margin-right: auto;

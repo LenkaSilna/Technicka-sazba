@@ -9,6 +9,10 @@ a:-webkit-any-link {
   text-decoration: none;
 }
 
+p, ul, li {
+  font-family: "Roboto", sans-serif;
+}
+
 .main,
 .form {
   margin-right: auto;
