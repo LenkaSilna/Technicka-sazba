@@ -4,7 +4,6 @@
 }
 
 a:-webkit-any-link {
-  color: white;
   cursor: pointer;
   text-decoration: none;
 }
@@ -169,6 +168,7 @@ body {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: "Roboto", sans-serif;
 }
 
 .footer__icons {
@@ -208,19 +208,21 @@ body {
 
 .service__graphic-button,
 .service__charts-button,
-.service__correction-button {
+.service__correction-button,
+.form-button {
   padding: 20px;
   border: 0;
   background-color: #82CACD;
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   color: #205D76;
 }
 
 .service__graphic-button:hover,
 .service__charts-button:hover,
-.service__correction-button:hover {
+.service__correction-button:hover,
+.form-button:hover {
   background-color: #205D76;
   color: #ffaaa8;
 }
@@ -261,6 +263,30 @@ body {
   padding-bottom: 40px;
 }
 
+.index_icon {
+  color: #205D76;
+  margin-right: 20px;
+}
+
+.service__correction-text, .service__charts-text, .service__graphic-text, .service__other-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.service__correction::after,
+.service__charts::after,
+.service__graphic::after,
+.service__other::after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 6px;
+  background-color: #82CACD;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 @media screen and (min-width: 800px) {
   .service {
     display: -webkit-box;
@@ -291,6 +317,14 @@ body {
 .form-field {
   display: block;
   margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.form__checkbox {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
 .form-field label {
@@ -318,12 +352,6 @@ form {
   border: 3px solid #205D76;
   font-size: 16px;
   padding: 5px 10px;
-}
-
-.form-button {
-  padding: 20px;
-  border: 0;
-  background-color: #82CACD;
 }
 
 .form-button:hover {

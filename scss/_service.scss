@@ -3,6 +3,34 @@
   padding-bottom: 40px;
 }
 
+.index_icon{
+  color: $primary;
+  margin-right: 20px;
+}
+
+.service{
+  &__correction-text,
+  &__charts-text,
+  &__graphic-text,
+  &__other-text{
+    display: flex;
+  }
+}
+
+  .service__correction::after,
+  .service__charts::after,
+  .service__graphic::after,
+  .service__other::after{
+    content: "";
+  display: block;
+  width: 150px;
+  height: 6px;
+  background-color: $secondary;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  }
+
+
 @media screen and (min-width: 800px){
   .service{
     display: flex;
