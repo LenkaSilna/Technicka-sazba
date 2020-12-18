@@ -24,6 +24,15 @@
     list-style: none;
     background-color: $primary;
     font-family: $font-base;
+
+    &__item--active ::after{
+        content: "";
+        display: block;
+        width: 100px;
+        height: 6px;
+        background-color: $hover;
+      
+      }
   }
   
   .menu__item{

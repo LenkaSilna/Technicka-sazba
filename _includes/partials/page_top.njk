@@ -21,11 +21,21 @@
 		<label for="menu-checkbox" class="menu__toggler">☰</label>
 
 		<ul class="menu__list">
-			<li class="menu__item"><a class="menu__link" href="/korektury">Chci korektury</a></li>
-			<li class="menu__item"><a class="menu__link" href="/grafy">Chci grafy</a></li>
-      <li class="menu__item"><a class="menu__link" href="/grafika">Chci grafiku</a></li>
-      <li class="menu__item"><a class="menu__link" href="/jine">Chci něco jiného</a></li>
-			<li class="menu__item"><a class="menu__link" href="/kontakt">Kontakt</a></li>
+      <li class="menu__item {% if menu === 'korektury' %}menu__item--active{% endif %}">
+        <a class="menu__link" href="/korektury">Chci korektury</a>
+      </li>
+			<li class="menu__item {% if menu === 'grafy' %}menu__item--active{% endif %}">
+        <a class="menu__link" href="/grafy">Chci grafy</a>
+      </li>
+      <li class="menu__item {% if menu === 'grafika' %}menu__item--active{% endif %}">
+        <a class="menu__link" href="/grafika">Chci grafiku</a>
+      </li>
+      <li class="menu__item {% if menu === 'jine' %}menu__item--active{% endif %}">
+        <a class="menu__link" href="/jine">Chci něco jiného</a>
+      </li>
+			<li class="menu__item {% if title === 'kontakt' %}menu__item--active{% endif %}">
+        <a class="menu__link" href="/kontakt">Kontakt</a>
+      </li>
     </ul>
     </nav>
   </header>
