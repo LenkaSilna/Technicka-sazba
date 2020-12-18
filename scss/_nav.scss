@@ -24,19 +24,20 @@
     list-style: none;
     background-color: $primary;
     font-family: $font-base;
-
-    &__item--active ::after{
-        content: "";
-        display: block;
-        width: 100px;
-        height: 6px;
-        background-color: $hover;
-      
-      }
   }
   
   .menu__item{
     border-bottom: 1px solid silver;
+  }
+
+  .menu__item--active::after{
+    content: "";
+    display: block;
+    text-align: center;
+    width: 30px;
+    height: 3px;
+    background-color: $hover;
+    margin-left: 5px;
   }
   
   .menu__link{

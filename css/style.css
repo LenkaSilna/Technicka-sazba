@@ -105,16 +105,18 @@ label.header__home {
   font-family: "Roboto", sans-serif;
 }
 
-.menu__list__item--active ::after {
-  content: "";
-  display: block;
-  width: 100px;
-  height: 6px;
-  background-color: #ffaaa8;
-}
-
 .menu__item {
   border-bottom: 1px solid silver;
+}
+
+.menu__item--active::after {
+  content: "";
+  display: block;
+  text-align: center;
+  width: 30px;
+  height: 3px;
+  background-color: #ffaaa8;
+  margin-left: 5px;
 }
 
 .menu__link {
@@ -250,10 +252,10 @@ body {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   background-color: rgba(255, 255, 255, 0.5);
-  padding: 30px;
+  padding: 15px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 600px) {
   .hero__text {
     padding: 15px;
   }
