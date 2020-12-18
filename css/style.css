@@ -109,14 +109,22 @@ label.header__home {
   border-bottom: 2px solid #82CACD;
 }
 
-.menu__item--active::after {
-  content: "";
-  display: block;
-  text-align: center;
-  width: 30px;
-  height: 2px;
-  background-color: #82CACD;
-  margin-left: 5px;
+@media screen and (max-width: 799px) {
+  .menu__item--active {
+    background-color: #82CACD;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .menu__item--active::after {
+    content: "";
+    display: block;
+    text-align: center;
+    width: 30px;
+    height: 2px;
+    background-color: #82CACD;
+    margin-left: 5px;
+  }
 }
 
 .menu__link {

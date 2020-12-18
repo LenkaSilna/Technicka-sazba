@@ -30,6 +30,13 @@
     border-bottom: 2px solid $hover;
   }
 
+  @media screen and (max-width: 799px){
+  .menu__item--active{
+    background-color: $hover;
+  }
+}
+
+@media screen and (min-width: 800px){
   .menu__item--active::after{
     content: "";
     display: block;
@@ -39,6 +46,7 @@
     background-color: $hover;
     margin-left: 5px;
   }
+}
   
   .menu__link{
     display: block;
