@@ -115,7 +115,7 @@ label.header__home {
   text-align: center;
   width: 30px;
   height: 3px;
-  background-color: #ffaaa8;
+  background-color: #82CACD;
   margin-left: 5px;
 }
 
@@ -128,7 +128,7 @@ label.header__home {
 }
 
 .menu__link:hover {
-  background-color: #ffaaa8;
+  background-color: #82CACD;
 }
 
 nav.menu {
@@ -213,7 +213,7 @@ body {
 }
 
 .icons-border:hover {
-  background-color: #ffaaa8;
+  background-color: #82CACD;
 }
 
 .service__graphic-button,
@@ -234,7 +234,7 @@ body {
 .service__correction-button:hover,
 .form-button:hover {
   background-color: #205D76;
-  color: #ffaaa8;
+  color: #82CACD;
 }
 
 .hero {
