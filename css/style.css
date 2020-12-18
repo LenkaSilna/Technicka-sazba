@@ -106,7 +106,7 @@ label.header__home {
 }
 
 .menu__item {
-  border-bottom: 1px solid silver;
+  border-bottom: 2px solid #82CACD;
 }
 
 .menu__item--active::after {
@@ -114,7 +114,7 @@ label.header__home {
   display: block;
   text-align: center;
   width: 30px;
-  height: 3px;
+  height: 2px;
   background-color: #82CACD;
   margin-left: 5px;
 }
@@ -146,7 +146,7 @@ nav.menu {
   }
   .menu__item {
     border-bottom: 0;
-    border-right: 1px solid silver;
+    border-right: 2px solid #82CACD;
   }
 }
 
@@ -213,7 +213,7 @@ body {
 }
 
 .icons-border:hover {
-  background-color: #82CACD;
+  background-color: white;
 }
 
 .service__graphic-button,

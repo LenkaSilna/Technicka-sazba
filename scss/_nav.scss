@@ -27,7 +27,7 @@
   }
   
   .menu__item{
-    border-bottom: 1px solid silver;
+    border-bottom: 2px solid $hover;
   }
 
   .menu__item--active::after{
@@ -35,7 +35,7 @@
     display: block;
     text-align: center;
     width: 30px;
-    height: 3px;
+    height: 2px;
     background-color: $hover;
     margin-left: 5px;
   }
@@ -68,7 +68,7 @@ margin: 0 auto
   
     .menu__item{
       border-bottom: 0;
-      border-right: 1px solid silver;  
+      border-right: 2px solid $hover;  
     }
   
   }
